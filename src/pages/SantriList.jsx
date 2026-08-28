@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import santriData from "../Data/santriData";
+import { santriData } from "../Data/santriData";
 
 export default function SantriList() {
   return (

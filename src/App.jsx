@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
-import Dashboard from "./pages/DashBoard";
+import DashBoard from "./pages/DashBoard";
 import SantriList from "./pages/SantriList";
 import SantriDetail from "./pages/SantriDetail";
 import About from "./pages/About";
@@ -13,7 +13,7 @@ export default function App() {
         <Navbar />
         <main className="p-4">
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<DashBoard />} />
             <Route path="/santri" element={<SantriList />} />
             <Route path="/santri/:id" element={<SantriDetail />} />
             <Route path="/about" element={<About />} />
