@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router";
-import santriData from "../Data/santriData";
+import santriData from "../data/santriData"; // Gunakan 'data' huruf kecil
 
 export default function SantriDetail() {
   const { id } = useParams();
@@ -33,5 +33,3 @@ export default function SantriDetail() {
     </div>
   );
 }
-
-
