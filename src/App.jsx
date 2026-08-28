@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import Navbar from "./components/NavBar";
 import DashBoard from "./pages/DashBoard";
 import SantriList from "./pages/SantriList";

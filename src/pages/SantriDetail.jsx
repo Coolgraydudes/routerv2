@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router";
-import { santriData } from "../data/santriData";
+import santriData from "../Data/santriData";
 
 export default function SantriDetail() {
   const { id } = useParams();
