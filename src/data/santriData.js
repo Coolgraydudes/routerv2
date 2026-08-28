@@ -3,5 +3,3 @@ export const santriData = [
   { id: 2, nama: "Ali", kelas: "X" },
   { id: 3, nama: "Umar", kelas: "XII" },
 ];
-
-export default santriData; // <-- Tambahkan baris ini
